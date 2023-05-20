@@ -1,0 +1,51 @@
+form {
+    background: linear-gradient(#bd09b7, #6b4cf5);
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px 0px gray;
+    position: relative;
+}
+
+input {
+    width: 92%;    
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+select {
+    width: 100%;    
+    padding: 10px;
+    margin-bottom: 15px;
+}
+    
+h1 {
+    color: white;
+}
+
+
+label {
+    color: white;
+}
+button {
+    margin-left: 0px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 190px;
+    font-size: 20px;
+}
+
+.checkbox {
+    margin-left: -125px;
+    margin-bottom: 15px;
+}
+
+
+@media (max-width: 500px) {
+   form {
+    width: 300px;
+   }
+}
